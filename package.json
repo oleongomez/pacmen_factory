@@ -1,0 +1,15 @@
+{
+  "name": "pacmen-exercise",
+  "version": "1.0.0",
+  "description": "Factory for making pacmen\r You are given a starter.html code.\r When button \"make one\" is pressed you need to complete the code \r to position the new pacman image and add it to the \"game\" div. It is then added to the array of pacmen, which keeps track of the position and velocity of each pacman.\r You also need to make each pacman bounce off any wall it hits. \r Start by getting at least one pacman positioned and viewable.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Oscar De Leon Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3",
+    "yarn": "^1.22.10"
+  }
+}
