@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.pacman{
+    position:absolute;
+    width:20px;
+    height: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.button-container {
+    grid-area: 1 / 1;
+    z-index: 1;
+}
+.overlay {
+    grid-area: 1 / 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51,51,51,0.7);
+    z-index: 0;
+}

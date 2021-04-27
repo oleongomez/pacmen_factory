@@ -1,9 +1,20 @@
-
 <html>
-    <body>
-        <div id='game'>
-            <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-            <button onclick='update()' width='200' height='30'>Start Game</button>
+<head>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+        <div class="button-container" id='game'>
+            <button onclick='make_one()' width='200' height='30'>Add PacMan</button>
+            <button onclick='start()' width='200' height='30'>Start Game</button>
+            <button onclick='stop()' width='200' height='30'>Stop Game</button>
+            <input id="pacmen-number" type="text">
+            <button onclick='make_many()' width='200' height='30'>Add Many</button>
         </div>
-    </body>
+        <div class="overlay" id="game_area"></div>
+    </div>
+
+    <script src="pacman.js"></script>
+</body>
+
 </html>
