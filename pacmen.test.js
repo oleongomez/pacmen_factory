@@ -1,4 +1,4 @@
-const pacmen = require("./pacman.js");
+const pacmen = require("./pacmen.js");
 describe("create_pacman", () => {
   it("should return not void pacman", () => {
     expect(pacmen.create_pacman()).not.toBeUndefined();
